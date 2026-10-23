@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin-right:10em;
+	margin-left: 10em;
+	margin-bottom:5em;
+	margin-top:0em;
+}
+nav{
+	text-align:center;
+	background-color: #fbefb3;
+	padding:5px;
+	font-weight: bold;
+	
+}
+
+nav a{
+	color:#14ab3f;
+	text-decoration: none;
+	list-style: none;
+	padding:50px;
+	
+	
+}
+
+h1, h2 ,h3{
+	color:#14ab3f;
+	
+}
+#top{
+	text-align:center;
+	
+}
+#top img{
+	
+	width: 80px;
+	height:80px;
+	vertical-align: middle;
+	object-fit: contain;
+	
+}
+figure{
+	float: right;
+	margin-top:0%;
+	
+}
+
+#arrow ol {
+    list-style: none;
+}
+
+#arrow li{
+	background-image: url("images/greenarrow.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    line-height: 3em;
+    padding-left: 2em;
+	
+}
+nav a:hover{
+	color:#ec834a;
+}
+nav a:active{
+	color: black;
+}
+#color{
+	color:#ec834a;
+}
+.highlight {
+	background-color: #fbefb3;
+}
+.highlight a{
+	color:purple;
+	text-decoration:none;
+}
+#circle ul{
+	list-style-type:circle;
+}
+footer {
+    background-image: url("images/ricepaper.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    border-top: 3px solid black;
+    margin-top: 0em;
+    height: 140px;
+	font-weight: bold;
+}
